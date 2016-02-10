@@ -1,0 +1,184 @@
+.button-log-in
+{
+	background-color:#00b386!important;
+	border-radius: 50%;
+}
+
+.button-sign-up
+{
+	background-color:#00cca3!important;
+	border-radius:25px 0px 25px 0px;
+}
+
+.button-go
+{
+	background-color:#00cca3!important;
+	color:black!important;
+	border-radius:30% 30% 30% 30%;
+
+}
+
+.button-order
+{
+	background-color:#ff1a66!important;
+	border-radius:25px 0px 25px 0px;
+}
+
+.button-display
+{
+	background-color:#00bfff!important;
+	border-radius:10px;
+	color:black!important;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+a:hover
+{
+	color: grey!important	;
+}
+
+.bar-custom
+{
+	background-color: #ff8c1a;
+}
+
+.back-image
+{
+
+}
+body
+{
+	font-family: 'Biryani', sans-serif;
+}
+
+
+
+
+
+/*.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold;
+}*/
+
+.button-display1
+{
+	background-color:#A52A2A!important;
+	border-radius:10px;
+	
+}
+.button-display2
+{
+	background-color:#A52A2A!important;
+	border-radius:10px;
+	
+}
+.button-display3
+{
+	background-color:#BA55D3!important;
+	border-radius:10px;
+
+	
+}
+.button-display4
+{
+	background-color:#773517!important;
+	border-radius:10px;
+	
+}
+.button-display5
+{
+	background-color:#b83347!important;
+	border-radius:10px;
+	
+}
+.button-display6
+{
+	background-color:#96bf65!important;
+	border-radius:10px;
+}
+
+.button-display7
+{
+	background-color:#44945e!important;
+	border-radius:10px;
+}
+
+.button-display8
+{
+	background-color:#7b6b4f!important;
+	border-radius:10px;
+	
+}
+.button-display9
+{
+	background-color:#6e3d4b!important;
+	border-radius:10px;
+	
+}
+.button-display10
+{
+	background-color:#098587!important;
+	border-radius:10px;
+	
+}
+.button-display11
+{
+	background-color:#ac826d!important;
+	border-radius:10px;
+	
+}
+.button-display12
+{
+	background-color:#33CC99!important;
+	border-radius:10px;
+	
+}
+.button-display13
+{
+	background-color:#DA614E!important;
+	border-radius:10px;
+	
+}
+.button-display14
+{
+	background-color:#FF4466!important;
+	border-radius:10px;
+	
+}
+
+
+
+
+
+
+	
+
+	
+	
+	
+	
+	
+	
+	
