@@ -1,13 +1,16 @@
 <ion-view title="My Orders ">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <div class="text-center">
-            <h4>My Orders</h4>
+        <ion-list></ion-list>
+        <div class="list card">
+            <div class="item item-divider">My Orders</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item ui-sref="orderDetails">Order 1</ion-item>
+                    <ion-item ui-sref="orderDetails">Order 2</ion-item>
+                    <ion-item ui-sref="orderDetails">Order 3</ion-item>
+                    <ion-item ui-sref="orderDetails">Order 4</ion-item>
+                </ion-list>
+            </div>
         </div>
-        <ion-list>
-            <ion-item href="#/order-details">Order 1</ion-item>
-            <ion-item href="#/order-details">Order 2</ion-item>
-            <ion-item href="#/order-details">Order 3</ion-item>
-            <ion-item href="#/order-details">Order 4</ion-item>
-        </ion-list>
     </ion-content>
 </ion-view>

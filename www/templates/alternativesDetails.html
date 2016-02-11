@@ -4,25 +4,29 @@
             <h4>Alternatives Details</h4>
 
         </div>
-        <div>
-            <p>Name :</p>
-
-            <p>Price :</p>
-
-            <p>Company Name :</p>
-
-            <p>Composition :</p>
-
-            <p>Availabilty :</p>
+        <div class="list card">
+            <div class="item item-divider">Alternative Details</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item>Name :</ion-item>
+                    <ion-item>Price :</ion-item>
+                    <ion-item>Company Name :</ion-item>
+                    <ion-item>Composition :</ion-item>
+                    <ion-item>Availability :</ion-item>
+                </ion-list>
+                <div class="list card">
+                    <div class="item item-divider">Stockist List</div>
+                    <div class="item item-body">
+                        <ion-list>
+                            <ion-item ui-sref="stockistDetails">Stockist List 1</ion-item>
+                            <ion-item ui-sref="stockistDetails">Stockist List 2</ion-item>
+                            <ion-item ui-sref="stockistDetails">Stockist List 3</ion-item>
+                        </ion-list>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text-center">
-            <h4>Stockist List</h4>
-
-        </div>
-        <ion-list>
-            <ion-item href="#/stockist-details">Stockist List 1</ion-item>
-            <ion-item href="#/stockist-details">Stockist List 2</ion-item>
-            <ion-item href="#/stockist-details">Stockist List 3</ion-item>
-        </ion-list>
+        <ion-list></ion-list>
+        <ion-list></ion-list>
     </ion-content>
 </ion-view>

@@ -83,4 +83,8 @@ angular.module('app.controllers', [])
 .controller('productDetailsCtrl', function($scope) {
 
 })
+   
+.controller('logOutCtrl', function($scope) {
+
+})
  

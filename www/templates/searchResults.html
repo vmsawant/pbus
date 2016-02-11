@@ -1,28 +1,32 @@
 <ion-view title="Search Results">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <div class="text-center">
-            <h4>Search Results</h4>
+        <div class="list card">
+            <div class="item item-divider">Search Results</div>
+            <div class="item item-body">
+                <ion-list></ion-list>
+                <ion-list></ion-list>
+                <ion-list>
+                    <ion-item>Name :</ion-item>
+                    <ion-item>Type :</ion-item>
+                    <ion-item>Price :</ion-item>
+                    <ion-item>Composition :</ion-item>
+                    <ion-item>Company Name :</ion-item>
+                    <ion-item>Availability :</ion-item>
+                </ion-list>
+                <ion-list></ion-list>
+            </div>
         </div>
-        <div>
-            <p>Name :</p>
-
-            <p>Price :</p>
-
-            <p>Company Name :</p>
-
-            <p>Composition :</p>
-
-            <p>Availabilty :</p>
+        <div class="list card">
+            <div class="item item-divider">Stockist List</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item ui-sref="stockistDetails">Stockist Name 1</ion-item>
+                    <ion-item ui-sref="stockistDetails">Stockist Name 2</ion-item>
+                    <ion-item ui-sref="stockistDetails">Stockist Name 3</ion-item>
+                    <ion-item ui-sref="stockistDetails">Stockist Name 4</ion-item>
+                </ion-list>
+            </div>
         </div>
-        <div class="text-center">
-            <h4>Stockist List</h4>
-        </div>
-        <ion-list>
-            <ion-item href="#/stockist-details">Stockist Name 1</ion-item>
-            <ion-item href="#/stockist-details">Stockist Name 2</ion-item>
-            <ion-item href="#/stockist-details">Stockist Name 3</ion-item>
-            <ion-item href="#/stockist-details">Stockist Name 4</ion-item>
-        </ion-list>
-        <a href="#/alternatives-list" class="button button-calm button-clear button-block ">Alternatives</a>
+        <a ui-sref="alternativesList" class="button button-calm button-clear button-block ">Alternatives</a>
     </ion-content>
 </ion-view>

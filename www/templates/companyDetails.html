@@ -1,18 +1,16 @@
 <ion-view title="Company Details">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <div class="text-center">
-            <h4>Company Details</h4>
-
+        <div class="list card">
+            <div class="item item-divider">Company Details</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item>Reg. Id :</ion-item>
+                    <ion-item>Name :</ion-item>
+                    <ion-item>Address :</ion-item>
+                    <ion-item>Details :</ion-item>
+                </ion-list>
+            </div>
         </div>
-        <div>
-            <p>Registration Id :</p>
-
-            <p>Company Name :</p>
-
-            <p>Company Address :</p>
-
-            <p>Company Details :</p>
-        </div>
-        <a href="#/search" class="button button-royal button-block button-small">Search medicine</a>
+        <a ui-sref="search" class="button button-royal button-block button-small">Search medicine</a>
     </ion-content>
 </ion-view>

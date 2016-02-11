@@ -1,14 +1,18 @@
 <ion-view title="Alternatives List">
     <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <div class="text-center">
-            <h4>Alternatives List</h4>
+        <ion-list></ion-list>
+        <div class="list card">
+            <div class="item item-divider">Alternatives List</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item ui-sref="alternativesDetails">Alternative 1</ion-item>
+                    <ion-item ui-sref="alternativesDetails">Alternative 2</ion-item>
+                    <ion-item ui-sref="alternativesDetails">Alternative 3</ion-item>
+                    <ion-item ui-sref="alternativesDetails">Alternative 4</ion-item>
+                    <ion-item ui-sref="alternativesDetails">Alternative 5</ion-item>
+                </ion-list>
+            </div>
         </div>
-        <ion-list>
-            <ion-item href="#/alternatives-details">Alternative 1</ion-item>
-            <ion-item href="#/alternatives-details">Alternative 2</ion-item>
-            <ion-item href="#/alternatives-details">Alternative 3</ion-item>
-            <ion-item href="#/alternatives-details">Alternative 4</ion-item>
-            <ion-item href="#/alternatives-details">Alternative 5</ion-item>
-        </ion-list>
+        <ion-list></ion-list>
     </ion-content>
 </ion-view>

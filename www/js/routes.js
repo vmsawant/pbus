@@ -241,6 +241,16 @@ angular.module('app.routes', [])
     })
         
       
+    
+      
+        
+    .state('logOut', {
+      url: '/logout',
+      templateUrl: 'templates/logOut.html',
+      controller: 'logOutCtrl'
+    })
+        
+      
     ;
 
   // if none of the above states are matched, use this as the fallback

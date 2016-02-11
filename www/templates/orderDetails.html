@@ -3,15 +3,17 @@
         <div class="text-center">
             <h4>Order details</h4>
         </div>
-        <div>
-            <p>Order Name :</p>
-
-            <p>Order Date :</p>
-
-            <p>Order Details :</p>
-
-            <p>Order Status :</p>
+        <div class="list card">
+            <div class="item item-divider">Order Details</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item>Name :</ion-item>
+                    <ion-item>Date :</ion-item>
+                    <ion-item>Details :</ion-item>
+                    <ion-item>Status :</ion-item>
+                </ion-list>
+            </div>
         </div>
-        <a href="#/search" class="button button-positive button-block button-small">Search Medicine</a>
+        <a ui-sref="search" class="button button-positive button-block button-small">Search Medicine</a>
     </ion-content>
 </ion-view>
