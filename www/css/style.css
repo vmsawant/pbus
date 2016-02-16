@@ -1,27 +1,27 @@
 .button-log-in
 {
-	background-color:#00b386!important;
-	border-radius: 50%;
+	background-color: #424c53!important;
+	border-radius: 20px;
 }
 
 .button-sign-up
 {
-	background-color:#00cca3!important;
-	border-radius:25px 0px 25px 0px;
+	background-color:#424c53!important;
+	border-radius:20px;
 }
 
 .button-go
 {
-	background-color:#00cca3!important;
-	color:black!important;
-	border-radius:30% 30% 30% 30%;
+	background-color:#8b4131!important;
+	color:white!important;
+	border-radius:5px;
 
 }
 
 .button-order
 {
 	background-color:#ff1a66!important;
-	border-radius:25px 0px 25px 0px;
+	border-radius:10px;
 }
 
 .button-display
@@ -32,10 +32,9 @@
 }
 
 .button {
-    background-color: #4CAF50;
+   /* background-color: #4CAF50;*/
     border: none;
     color: white;
-    
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
@@ -45,14 +44,16 @@
     font-weight:bold;
 }
 
-a:hover
+/*a:hover
 {
 	color: white!important	;
-}
+}*/
 
 .bar-custom
 {
-	background-color: #ff8c1a;
+	background-color:#ac786b;
+	font-weight:bold;
+	color: white;
 }
 
 .back-image
@@ -88,31 +89,35 @@ body
 	border-radius:10px;
 	
 }
+
 .button-display2
 {
 	background-color:#A52A2A!important;
 	border-radius:10px;
 	
 }
+
 .button-display3
 {
 	background-color:#BA55D3!important;
 	border-radius:10px;
 
-	
 }
+
 .button-display4
 {
 	background-color:#773517!important;
 	border-radius:10px;
 	
 }
+
 .button-display5
 {
 	background-color:#b83347!important;
 	border-radius:10px;
 	
 }
+
 .button-display6
 {
 	background-color:#96bf65!important;
@@ -131,41 +136,38 @@ body
 	border-radius:10px;
 	
 }
+
 .button-display9
 {
 	background-color:#6e3d4b!important;
 	border-radius:10px;
 	
 }
+
 .button-display10
 {
 	background-color:#098587!important;
 	border-radius:10px;
-	
 }
 .button-display11
 {
 	background-color:#ac826d!important;
 	border-radius:10px;
-	
 }
 .button-display12
 {
 	background-color:#33CC99!important;
 	border-radius:10px;
-	
 }
 .button-display13
 {
 	background-color:#DA614E!important;
 	border-radius:10px;
-	
 }
 .button-display14
 {
 	background-color:#FF4466!important;
 	border-radius:10px;
-	
 }
 
 

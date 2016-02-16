@@ -96,10 +96,14 @@ angular.module('app.routes', [])
     
       
         
-    .state('search', {
+    .state('menu.search', {
       url: '/search',
-      templateUrl: 'templates/search.html',
-      controller: 'searchCtrl'
+      views: {
+        'side-menu21': {
+          templateUrl: 'templates/search.html',
+          controller: 'searchCtrl'
+        }
+      }
     })
         
       
@@ -248,6 +252,16 @@ angular.module('app.routes', [])
       url: '/logout',
       templateUrl: 'templates/logOut.html',
       controller: 'logOutCtrl'
+    })
+        
+      
+    
+      
+        
+    .state('orderList', {
+      url: '/order-list',
+      templateUrl: 'templates/orderList.html',
+      controller: 'orderListCtrl'
     })
         
       

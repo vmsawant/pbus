@@ -87,4 +87,8 @@ angular.module('app.controllers', [])
 .controller('logOutCtrl', function($scope) {
 
 })
+   
+.controller('orderListCtrl', function($scope) {
+
+})
  
