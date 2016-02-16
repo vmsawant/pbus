@@ -14,19 +14,12 @@ angular.module('app.routes', [])
       abstract:true,
       templateUrl: 'templates/menu.html'
     })
-      
-    
-      
-        
+
     .state('startUp', {
       url: '/start-up',
       templateUrl: 'templates/startUp.html',
       controller: 'startUpCtrl'
     })
-        
-      
-    
-      
         
     .state('login', {
       url: '/login',
@@ -34,19 +27,11 @@ angular.module('app.routes', [])
       controller: 'loginCtrl'
     })
         
-      
-    
-      
-        
     .state('passwordRecovery', {
       url: '/password-recovery',
       templateUrl: 'templates/passwordRecovery.html',
       controller: 'passwordRecoveryCtrl'
     })
-        
-      
-    
-      
         
     .state('signup', {
       url: '/signup',
@@ -54,19 +39,11 @@ angular.module('app.routes', [])
       controller: 'signupCtrl'
     })
         
-      
-    
-      
-        
     .state('signupConfirmation', {
       url: '/signup-confirmation',
       templateUrl: 'templates/signupConfirmation.html',
       controller: 'signupConfirmationCtrl'
     })
-        
-      
-    
-      
         
     .state('menu.companyList', {
       url: '/company-list',
@@ -78,10 +55,6 @@ angular.module('app.routes', [])
       }
     })
         
-      
-    
-      
-        
     .state('menu.productList', {
       url: '/product-list',
       views: {
@@ -91,10 +64,6 @@ angular.module('app.routes', [])
         }
       }
     })
-        
-      
-    
-      
         
     .state('menu.search', {
       url: '/search',
@@ -106,19 +75,11 @@ angular.module('app.routes', [])
       }
     })
         
-      
-    
-      
-        
     .state('searchResults', {
       url: '/search-results',
       templateUrl: 'templates/searchResults.html',
       controller: 'searchResultsCtrl'
     })
-        
-      
-    
-      
         
     .state('stockistDetails', {
       url: '/stockist-details',
@@ -126,29 +87,17 @@ angular.module('app.routes', [])
       controller: 'stockistDetailsCtrl'
     })
         
-      
-    
-      
-        
     .state('alternativesList', {
       url: '/alternatives-list',
       templateUrl: 'templates/alternativesList.html',
       controller: 'alternativesListCtrl'
     })
         
-      
-    
-      
-        
     .state('alternativesDetails', {
       url: '/alternatives-details',
       templateUrl: 'templates/alternativesDetails.html',
       controller: 'alternativesDetailsCtrl'
     })
-        
-      
-    
-      
         
     .state('menu.myProfile', {
       url: '/my-profile',
@@ -160,19 +109,11 @@ angular.module('app.routes', [])
       }
     })
         
-      
-    
-      
-        
     .state('changePassword', {
       url: '/change-password',
       templateUrl: 'templates/changePassword.html',
       controller: 'changePasswordCtrl'
     })
-        
-      
-    
-      
         
     .state('passwordChange', {
       url: '/password-change',
@@ -180,19 +121,11 @@ angular.module('app.routes', [])
       controller: 'passwordChangeCtrl'
     })
         
-      
-    
-      
-        
     .state('orderConfirmation', {
       url: '/order-confirmation',
       templateUrl: 'templates/orderConfirmation.html',
       controller: 'orderConfirmationCtrl'
-    })
-        
-      
-    
-      
+    }) 
         
     .state('menu.myOrders', {
       url: '/my-orders',
@@ -204,19 +137,11 @@ angular.module('app.routes', [])
       }
     })
         
-      
-    
-      
-        
     .state('orderDetails', {
       url: '/order-details',
       templateUrl: 'templates/orderDetails.html',
       controller: 'orderDetailsCtrl'
     })
-        
-      
-    
-      
         
     .state('emailLink', {
       url: '/email-link',
@@ -224,48 +149,29 @@ angular.module('app.routes', [])
       controller: 'emailLinkCtrl'
     })
         
-      
-    
-      
-        
     .state('companyDetails', {
       url: '/company-details',
       templateUrl: 'templates/companyDetails.html',
       controller: 'companyDetailsCtrl'
     })
         
-      
-    
-      
-        
     .state('productDetails', {
       url: '/product-details',
       templateUrl: 'templates/productDetails.html',
       controller: 'productDetailsCtrl'
     })
-        
-      
-    
-      
-        
+
     .state('logOut', {
       url: '/logout',
       templateUrl: 'templates/logOut.html',
       controller: 'logOutCtrl'
     })
-        
-      
-    
-      
-        
+
     .state('orderList', {
       url: '/order-list',
       templateUrl: 'templates/orderList.html',
       controller: 'orderListCtrl'
-    })
-        
-      
-    ;
+    });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/start-up');
